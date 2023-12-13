@@ -40,7 +40,7 @@ yarn-error.log*
 /pnpm-lock.yaml
 .idea
 .vscode
-
+.history
 
 # sitemap
 /public/robots.txt
