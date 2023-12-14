@@ -1,6 +1,7 @@
 import DarkModeButton from '@/components/DarkModeButton'
-import Vercel from '@/components/Vercel'
+// import Vercel from '@/components/Vercel'
 import { siteConfig } from '@/lib/config'
+import SocialButton from '@/themes/medium/components/SocialButton'
 
 export const Footer = (props) => {
   const d = new Date()
@@ -22,7 +23,8 @@ export const Footer = (props) => {
          <p>
            © {siteConfig('AUTHOR')} {copyrightDate}
          </p>
-         <Vercel />
+        {/* <Vercel /> */}
+        <SocialButton />
        </div>
      </div>
    </footer>
