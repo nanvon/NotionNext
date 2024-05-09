@@ -20,6 +20,7 @@ const MOUSE_FOLLOW = () => {
         })
       }
     })
+    loadExternalResource('/js/fullscreen.js', 'js')
   }, [])
 
   return <></>
