@@ -1,6 +1,6 @@
 import { useEffect } from 'react'
 // import anime from 'animejs'
-import { siteConfig } from '@/lib/config'
+// import { siteConfig } from '@/lib/config'
 import { loadExternalResource } from '@/lib/utils'
 
 /**
